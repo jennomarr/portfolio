@@ -38,12 +38,10 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
-.about-link {
-  background: var(--primary-color);
-  color: white;
-  box-shadow: var(--box-shadow);
-}
 
+.contacts {
+  margin: 30px 0;
+}
 .contacts-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -61,8 +59,14 @@ h3 {
   text-align: center;
   display: block;
 }
+.about-link {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
 .about-paragraphs {
   display: flex;
+  margin: 30px 0;
 }
 
 .about-paragraphs p {
@@ -78,4 +82,14 @@ h3 {
 .contacts {
   text-align: center;
   font-style: none;
+}
+
+.email-link {
+  font-size: 30px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
