@@ -22,10 +22,10 @@ h1 {
 h2 {
   font-size: 48px;
 }
-.navigation-links a {
-  text-decoration: none;
+h3 {
+  font-size: 20px;
+  opacity: 0.7;
 }
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -47,11 +47,35 @@ h2 {
 .contacts-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  box-shadow: var(--box-shadow);
 }
 
 .signature {
   display: block;
   margin-top: 40px;
   text-align: center;
+}
+
+/* About CSS */
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+.about-paragraphs {
+  display: flex;
+}
+
+.about-paragraphs p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px;
+}
+
+.contacts {
+  text-align: center;
+  font-style: none;
 }
