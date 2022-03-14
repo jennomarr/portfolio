@@ -1,13 +1,10 @@
 :root {
   --heading-font: monospace;
-  --primary-color: #304ffe;
+  --primary-color: #3b023b;
   --secondary-color: #c5cae9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body {
-  margin: 60px auto;
-  max-width: 800px;
-}
+
 h1,
 h2,
 h3,
@@ -17,7 +14,7 @@ p {
 }
 
 h1 {
-  font-size: 57px;
+  font-size: 96px;
 }
 h2 {
   font-size: 48px;
@@ -26,6 +23,14 @@ h3 {
   font-size: 20px;
   opacity: 0.7;
 }
+
+.wrapper {
+  margin-top: 120px;
+}
+.logo {
+  max-width: 140px;
+  margin-right: 1rem;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -33,18 +38,24 @@ h3 {
 }
 .navigation-links a {
   margin: 20px;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
-
-.contacts {
-  margin: 30px 0;
-}
-.contacts-link {
+.secondary-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .signature {
@@ -59,14 +70,9 @@ h3 {
   text-align: center;
   display: block;
 }
-.about-link {
-  background: var(--primary-color);
-  color: white;
-  box-shadow: var(--box-shadow);
-}
 .about-paragraphs {
   display: flex;
-  margin: 30px 0;
+  margin: 35px;
 }
 
 .about-paragraphs p {
@@ -79,7 +85,8 @@ h3 {
   margin: 10px;
 }
 
-.contacts {
+#contacts {
+  margin: 35px;
   text-align: center;
   font-style: none;
 }
@@ -92,4 +99,9 @@ h3 {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.container h2,
+p {
+  text-align: left;
 }
