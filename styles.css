@@ -1,36 +1,64 @@
 :root {
-  --heading-font: monospace;
+  --heading-font: "Hind Siliguri", sans-serif;
   --primary-color: #3b023b;
   --secondary-color: #c5cae9;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.navbar {
+  font-family: "Hind Siliguri", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
 h1,
 h2,
 h3,
 p {
   text-align: center;
-  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 40px;
+  font-weight: 700;
 }
 h2 {
   font-size: 48px;
+  font-weight: 300;
 }
 h3 {
   font-size: 20px;
   opacity: 0.7;
+  font-weight: 300;
 }
 
 body {
   margin-top: 100px;
 }
 
+.main-page h1,
+h2 {
+  text-align: center;
+}
+
+.main-page .row {
+  display: flex;
+  padding: 20px 80px 0px 80px;
+}
+.colum-one {
+  padding: 0px 10px 0px 0px;
+}
+.colum-two {
+  padding: 30px 0px 0px 10px;
+}
+
+.main-page .navigation-links {
+  display: flex;
+  flex-direction: row;
+}
+
 .logo {
-  max-width: 140px;
-  margin-left: -9px;
+  max-width: 200px;
 }
 .navigation-links {
   display: flex;
@@ -57,12 +85,6 @@ body {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-}
-
-.signature {
-  display: block;
-  margin-top: 40px;
-  text-align: center;
 }
 
 /* About CSS */
@@ -106,21 +128,55 @@ p {
 }
 
 @media (max-width: 576px) {
-  h1 {
-    font-size: 80px;
-  }
+ 
 
   .container p {
     text-align: center;
   }
-  .container h2 {
-    font-size: 32px;
-    text-align: center;
-  }
+  
 
   .primary-link {
     display: block;
     text-align: center;
     margin: 0 20px;
   }
+}
+
+footer {
+  margin: 20px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 0px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
