@@ -52,11 +52,6 @@ h2 {
   padding: 30px 0px 0px 10px;
 }
 
-.main-page .navigation-links {
-  display: flex;
-  flex-direction: row;
-}
-
 .logo {
   max-width: 200px;
 }
@@ -128,18 +123,40 @@ p {
 }
 
 @media (max-width: 576px) {
- 
-
   .container p {
     text-align: center;
   }
-  
 
   .primary-link {
     display: block;
     text-align: center;
     margin: 0 20px;
   }
+
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+
+  .main-page .row {
+    padding: none;
+  }
+
+.main-page .row {
+  display: flex;
+  padding: 0px;
+}
+.colum-one {
+  padding: 0px;
+}
+.colum-two {
+  padding: 0px
+}
 }
 
 footer {
