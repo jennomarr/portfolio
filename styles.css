@@ -112,6 +112,20 @@ li {
   padding-left: none;
 }
 
+.resume button {
+  display: block;
+  padding: 5px 60px;
+  align: center;
+}
+.resume .research {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.resume .research:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 @media (max-width: 576px) {
   .container p {
     text-align: center;
@@ -167,6 +181,11 @@ li {
   }
   .container .resume img {
     display: none;
+  }
+
+  .resume button {
+    display: block;
+    text-align: center;
   }
 }
 
