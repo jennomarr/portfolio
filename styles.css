@@ -165,7 +165,7 @@ li {
     font-size: 18px;
     font-weight: 300;
   }
-  .container img {
+  .container .resume img {
     display: none;
   }
 }
@@ -198,7 +198,7 @@ li {
 }
 
 footer {
-  margin: 20px 0;
+  margin: 21px 0px 10px 0px;
 }
 
 footer .contact-box {
