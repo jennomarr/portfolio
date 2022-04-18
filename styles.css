@@ -82,6 +82,16 @@ h2 {
   text-transform: capitalize;
 }
 
+/* Project Page */
+
+.wrapper {
+  margin: 0px;
+  margin-top: 70px;
+}
+.wrapper .row {
+  text-align: center;
+}
+
 /* About CSS */
 .homepage-link {
   color: var(--primary-color);
@@ -101,27 +111,20 @@ h2 {
   margin: 8px;
 }
 
-#contacts {
-  margin: 35px;
-  text-align: center;
-  font-style: none;
-}
-
-.email-link {
-  font-size: 30px;
-  color: var(--primary-color);
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
 .container h2,
 p {
-  text-align: left;
+  text-align: center;
 }
 
+.resume h2 {
+  text-align: left;
+  font-size: 30px;
+}
+
+.resume h3 {
+  text-align: left;
+  font-size: 15px;
+}
 @media (max-width: 576px) {
   .container p {
     text-align: center;
@@ -147,16 +150,16 @@ p {
     padding: none;
   }
 
-.main-page .row {
-  display: flex;
-  padding: 0px;
-}
-.colum-one {
-  padding: 0px;
-}
-.colum-two {
-  padding: 0px
-}
+  .main-page .row {
+    display: flex;
+    padding: 0px;
+  }
+  .colum-one {
+    padding: 0px;
+  }
+  .colum-two {
+    padding: 0px;
+  }
 }
 
 footer {
