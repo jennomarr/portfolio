@@ -113,9 +113,16 @@ li {
 }
 
 .resume button {
-  display: block;
+  background-color: #c5cae9;
+  display: inline;
   padding: 5px 60px;
-  align: center;
+  text-align: center;
+  text-decoration: none;
+}
+
+.resume button:hover {
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
 }
 .resume .research {
   color: var(--primary-color);
@@ -123,7 +130,6 @@ li {
 }
 .resume .research:hover {
   color: var(--primary-color);
-  text-decoration: underline;
 }
 
 @media (max-width: 576px) {
@@ -181,11 +187,6 @@ li {
   }
   .container .resume img {
     display: none;
-  }
-
-  .resume button {
-    display: block;
-    text-align: center;
   }
 }
 
